@@ -1,22 +1,22 @@
-#let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Шаблон и упутство за писање завршних радова"
-#let autor = "Уписати име и презиме"
+#let format_strane = "a4"         // могуће вредности: iso-b5, a4
+#let naslov = "Континуирана интеграција и континуирана испорука безсервских сервиса на AWS платформи"
+#let autor = "Душан Ђорђевић"
 
 // На енглеском
-#let naslov_eng = "Template and tutorial for thesis preparation"
-#let autor_eng = "Upisati ime i prezime na latinici"
+#let naslov_eng = "Continuous Integration and Continuous Delivery of serverless services on the AWS platform"
+#let autor_eng = "Dušan Đorđević"
 
-#let indeks = "Уписати индекс"
+#let indeks = "SV 1/2021"
 
 // Име и презиме ментора
-#let mentor = "Игор Дејановић"
+#let mentor = "Мирослав Зарић"
 // Звање: редовни професор, ванредни професор, доцент
 #let mentor_zvanje = "редовни професор"
 
 // Скинути коментаре са одговарајућих линија
 #let studijski_program = "Софтверско инжењерство и информационе технологије"
 //#let studijski_program = "Рачунарство и аутоматика"
-#let stepen = "Мастер академске студије"
+#let stepen = "Основне академске студије"
 //#let stepen = "Основне академске студије"
 
 #let godina = [#datetime.today().year()]
@@ -50,7 +50,7 @@
 // На енглеском уписати чланове на латиници
 #let komisija_predsednik_eng = "Petar Petrović"
 #let komisija_clan_eng = "Marko Marković"
-#let mentor_eng = "Igor Dejanović"
+#let mentor_eng = "Miroslav Zarić"
 
 
 // Ово даље углавном не треба мењати.
