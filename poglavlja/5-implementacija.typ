@@ -73,7 +73,7 @@ export class CicdStack extends cdk.Stack {
         super(scope, id, props);
         // ...
 ```,
-    caption: []
+    caption: [Заглавље `CicdStack` класе.]
 )<lst:cicd-class>
 
 === Креирање _CodePipeline_-а

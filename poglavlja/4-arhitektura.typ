@@ -25,7 +25,7 @@ _Streaming_ апликација базирана је на _AWS serverless_ а�
 
   #figure(
   image("../slike/api-stack.png", width: 100%),
-  caption: [_REST API_ архитектура]
+  caption: [_REST API_ архитектура.]
   ) <fig:infrastructure> \
 
   *Претраживање и филтрирање*: _Lambda_ функције `query-movies` и `get-movie` омогућавају корисницима претраживање садржаја на основу различитих критеријума (наслов, жанр, режисер) користећи индексе _DynamoDB_ табеле _Metadata Table_.
@@ -41,7 +41,7 @@ _Feed_ систем представља посебну компоненту к�
 
 #figure(
   image("../slike/feed-stack.png", width: 70%),
-  caption: [Архитектура _Feed_ система]
+  caption: [Архитектура _Feed_ система.]
 ) <fig:feed>
 
 _Feed_ систем користи класичан догађајно оријентисани приступ где промене у различитим табелама (_History table_, _Subscriptions table_, _Likes table_) аутоматски покрећу одговарајуће _Lambda_ функције:
@@ -64,7 +64,7 @@ _Feed_ систем користи класичан догађајно ориј�
 
 #figure(
   image("../slike/transcoder-stack.png", width: 55%),
-  caption: [Архитектура транскодирања филмова]
+  caption: [Архитектура транскодирања филмова.]
 ) <fig:transcoding>
 
 _Trigger transcoder Lambda_ функција преузима поруке из _Transcoder queue_-а и покреће _Transcoder AWS Step Function_, који паралелно генерише ниже резолуције филмова. Паралелно извршавање транскодирања значајно убрзава процес обраде.
@@ -79,7 +79,7 @@ _CI/CD pipeline_ за _streaming_ апликацију имплементира�
 
 #figure(
   image("../slike/ci-cd-stack.png", height:  100%),
-  caption: [Архитектура _CI/CD pipeline_-а са фазама изградње, тестирања и постављања]
+  caption: [Архитектура _CI/CD pipeline_-а са фазама изградње, тестирања и постављања.]
 ) <fig:cicd>
 
 

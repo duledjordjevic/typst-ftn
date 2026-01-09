@@ -72,7 +72,7 @@
 #include "poglavlja/3-zahtevi.typ"
 #include "poglavlja/4-arhitektura.typ"
 #include "poglavlja/5-implementacija.typ"
-// #include "poglavlja/7-zakljucak.typ"
+#include "poglavlja/6-zakljucak.typ"
 
 
 
@@ -119,7 +119,7 @@
 
 #show "Available at:": "Доступно на "
 #bibliography(title: [Литература], "literatura.bib")
-#checkbib()
+// #checkbib()
 
 // Потребне исправке и дораде. У тексту користити са
 // #todo[Коментар шта треба урадити]
