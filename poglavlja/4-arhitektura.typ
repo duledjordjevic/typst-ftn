@@ -31,6 +31,8 @@ _Streaming_ апликација базирана је на _AWS serverless_ а�
   caption: [_REST API_ архитектура.]
   ) <fig:infrastructure> \
 
+#todo[Možda ovde dodati pojašnjenje za izabrani pristup da je svaki tip zahteva jedna lambda funkcija (nije greška to je stvar izbora, mada se nekada optira i za jednu veću funkciju koja obavlja različite funkcionalnosti) - tipa get i get all i delete movie su mogle biti i u jednoj većoj funkciji (ili bar get i get all) koja bi na osnovu tipa upita radila odgovarajuće stvari - pa onda iskomentarisati prednosti i mane oba preistupa u granulaciji lambdi. ]
+
   *Претраживање и филтрирање*: _Lambda_ функције `query-movies` и `get-movie` омогућавају корисницима претраживање садржаја на основу различитих критеријума (наслов, жанр, режисер) користећи индексе _DynamoDB_ табеле _Metadata Table_.
 
   *_CRUD_ операције*: Функције `put-movies` и `delete-movie` омогућавају ажурирање метаподатака и брисање садржаја. Операција брисања укључује и уклањање физичких фајлова из _S3 bucket_-а и свих повезаних метаподатака из база података.
