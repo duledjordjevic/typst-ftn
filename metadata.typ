@@ -21,23 +21,34 @@
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "Шаблон, завршни рад, упутство"
+#let kljucne_reci = "CI/CD, serverless, микросервиси, инфраструктура као код, АWS CDK"
 #let apstrakt = [
-     Овај документ представља упутство за писање завршних радова на Факултету
-     техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+    Овај рад бави се дизајном и имплементацијом CI/CD pipeline-а у AWS окружењу,
+    са циљем аутоматизације процеса изградње, тестирања и постављања апликација.
+    Као пример практичне примене, коришћена је serverless streaming апликација
+    која служи за илустрацију рада и интеграције фаза CI/CD процеса.
+    Инфраструктура је дефинисана коришћењем AWS Cloud Development Kit (CDK) алата,
+    док је CI/CD pipeline реализован помоћу AWS CodePipeline и CodeBuild
+    сервиса. Резултат рада је поуздан и проширив процес испоруке који омогућава
+    контролисано и безбедно постављање апликација у више окружења.
 ]
 
 // На енглеском
-#let kljucne_reci_eng = "Template, thesis, tutorial"
+#let kljucne_reci_eng = "CI/CD, serverless, microservices, infrastructure as a code, АWS CDK"
 #let apstrakt_eng = [
-     This document provides guidelines for writing final theses at the Faculty
-     of Technical Sciences, University of Novi Sad. At the same time, it serves
-     as a Typst template.
+    This thesis focuses on the design and implementation of a CI/CD pipeline in
+    an AWS environment, aiming to automate the build, test, and deployment
+    processes. As a practical use case, a serverless streaming application is
+    used to demonstrate the operation and integration of individual CI/CD
+    stages. The infrastructure is defined using the AWS Cloud Development Kit
+    (CDK), while the CI/CD pipeline is implemented with AWS CodePipeline and
+    CodeBuild services. The result is a reliable and extensible delivery process
+    that enables controlled and secure multi-environment application deployment.
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
 #let zadatak = [
-     #lorem(100)
+    Пројектовати и имплементирати CI/CD pipeline у AWS окружењу који омогућава аутоматизацију процеса изградње, тестирања и постављања serverless streaming апликације. Систем треба да подржи декларативно управљање инфраструктуром применом концепта Infrastructure as Code коришћењем AWS Cloud Development Kit (CDK) алата. Неопходно је реализовати CI/CD процес помоћу сервиса AWS CodePipeline и CodeBuild, са јасно дефинисаним фазама контроле квалитета, тестирања, ручног одобрења и постављања у више окружења. Решење треба да обезбеди поуздано, безбедно и прошириво постављање апликација.
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
