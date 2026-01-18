@@ -21,20 +21,20 @@
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "CI/CD, serverless, микросервиси, инфраструктура као код, АWS CDK"
+#let kljucne_reci = "Континуирана интеграција и испорука, безсерверска архитектура, микросервиси, инфраструктура као код"
 #let apstrakt = [
-    Овај рад бави се дизајном и имплементацијом CI/CD pipeline-а у AWS окружењу,
-    са циљем аутоматизације процеса изградње, тестирања и постављања апликација.
-    Као пример практичне примене, коришћена је serverless streaming апликација
-    која служи за илустрацију рада и интеграције фаза CI/CD процеса.
+    Овај рад бави се дизајном и имплементацијом континуиране интеграције
+    и испоруке у AWS окружењу, са циљем аутоматизације процеса изградње, тестирања и постављања апликација.
+    Као пример практичне примене, коришћена је безсерверска streaming апликација
+    над којом је примењен процес континуиране интеграције и испоруке ради илустрације интеграције појединих фаза процеса.
     Инфраструктура је дефинисана коришћењем AWS Cloud Development Kit (CDK) алата,
-    док је CI/CD pipeline реализован помоћу AWS CodePipeline и CodeBuild
+    док је процес континуиране интеграције и испоруке реализован помоћу AWS CodePipeline и CodeBuild
     сервиса. Резултат рада је поуздан и проширив процес испоруке који омогућава
-    контролисано и безбедно постављање апликација у више окружења.
+    контролисано и безбедно постављање апликацијe у више окружења.
 ]
 
 // На енглеском
-#let kljucne_reci_eng = "CI/CD, serverless, microservices, infrastructure as a code, АWS CDK"
+#let kljucne_reci_eng = "CI/CD, serverless architecture, microservices, infrastructure as a code"
 #let apstrakt_eng = [
     This thesis focuses on the design and implementation of a CI/CD pipeline in
     an AWS environment, aiming to automate the build, test, and deployment
