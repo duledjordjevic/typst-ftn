@@ -46,7 +46,7 @@
   place(left + top,
       dy: 25.92%,
       dx: left_edge,
-      rect(align(left + horizon, "Др " + mentor + ", " + mentor_zvanje),
+      rect(align(left + horizon, "др " + mentor + ", " + mentor_zvanje),
           fill: clr, width: 59%, height: 12pt)
   )
   place(left + top,
@@ -111,7 +111,7 @@
       rect(align(left + horizon, disciplina), fill: clr, width: 59%, height: 12pt)
   )
   place(left + top,
-      dy: 57.5%,
+      dy: 58%,
       dx: left_edge,
       rect(align(left + horizon, kljucne_reci), fill: clr, width: 59%, height: 12pt)
   )
@@ -136,19 +136,19 @@
   place(left + top,
       dy: 88.95%,
       dx: left_edge_komisija,
-      rect(align(left + horizon, "Др " + komisija_predsednik + ", " + komisija_predsednik_zvanje),
+      rect(align(left + horizon, "др " + komisija_predsednik + ", " + komisija_predsednik_zvanje),
           fill: clr, width: 38%, height: 12pt)
   )
   place(left + top,
       dy: 91.25%,
       dx: left_edge_komisija,
-      rect(align(left + horizon, "Др " + komisija_clan + ", " + komisija_clan_zvanje),
+      rect(align(left + horizon, "др " + komisija_clan + ", " + komisija_clan_zvanje),
           fill: clr, width: 38%, height: 12pt)
   )
   place(left + top,
       dy: 95.91%,
       dx: left_edge_komisija,
-      rect(align(left + horizon, "Др " + mentor + ", " + mentor_zvanje),
+      rect(align(left + horizon, "др " + mentor + ", " + mentor_zvanje),
           fill: clr, width: 38%, height: 12pt)
   )
 
@@ -243,7 +243,7 @@
       rect(align(left + horizon, disciplina_eng), fill: clr, width: 59%, height: 12pt)
   )
   place(left + top,
-      dy: 56.5%,
+      dy: 56.7%,
       dx: left_edge_eng,
       rect(align(left, kljucne_reci_eng), fill: clr, width: 59%, height: 16pt)
   )

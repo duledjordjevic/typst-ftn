@@ -1,11 +1,12 @@
+#import "transliterate_cyr_lat.typ"
+
 #let format_strane = "a4"         // могуће вредности: iso-b5, a4
 #let naslov = "Континуирана интеграција и испорука сервиса без серверских инстанци на AWS платформи"
 #let autor = "Душан Ђорђевић"
 
 // На енглеском
 #let naslov_eng = "Continuous Integration and Continuous Delivery of serverless services on the AWS platform"
-#let autor_eng = "Dušan Đorđević"
-
+#let autor_eng = transliterate_cyr_lat.transliterate(autor)
 #let indeks = "SV 1/2021"
 
 // Име и презиме ментора
@@ -52,17 +53,16 @@
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
-#let datum_odbrane = "01.01.2025"
-#let komisija_predsednik = "Петар Петровић"
-#let komisija_predsednik_zvanje = "ванредни професор"
-#let komisija_clan = "Марко Марковић"
-#let komisija_clan_zvanje = "доцент"
+#let datum_odbrane = "20.01.2026."
+#let komisija_predsednik = "Милан Видаковић"
+#let komisija_predsednik_zvanje = "редовни професор"
+#let komisija_clan = "Гордана Милосављевић"
+#let komisija_clan_zvanje = "редовни професор"
 
 // На енглеском уписати чланове на латиници
-#let komisija_predsednik_eng = "Petar Petrović"
-#let komisija_clan_eng = "Marko Marković"
-#let mentor_eng = "Miroslav Zarić"
-
+#let komisija_predsednik_eng = transliterate_cyr_lat.transliterate(komisija_predsednik)
+#let komisija_clan_eng = transliterate_cyr_lat.transliterate(komisija_clan)
+#let mentor_eng = transliterate_cyr_lat.transliterate(mentor)
 
 // Ово даље углавном не треба мењати.
 
